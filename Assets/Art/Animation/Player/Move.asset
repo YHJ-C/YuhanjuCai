@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a8877f26e7a6a43aaf06fade1a064a, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  _Transition:
+    rid: 7887075410470240510
+  references:
+    version: 2
+    RefIds:
+    - rid: 7887075410470240510
+      type: {class: MixerTransition2D, ns: Animancer, asm: Kybernetik.Animancer}
+      data:
+        _FadeDuration: 0.2
+        _Speed: 1.2
+        _Events:
+          _NormalizedTimes: []
+          _Callbacks: []
+          _Names: []
+        _Animations:
+        - {fileID: 1827226128182048838, guid: 2ec858f1ebf7a86448110159d555607a, type: 3}
+        - {fileID: 1827226128182048838, guid: 1cb0d668ffd353a488b0b4478f36d57d, type: 3}
+        - {fileID: 1827226128182048838, guid: 1c3c872d7b33aaf4c8e694897cecf2cb, type: 3}
+        - {fileID: 1827226128182048838, guid: 21cea08aa487b55488e1b7ec26e318e0, type: 3}
+        - {fileID: 1827226128182048838, guid: 2cc20698832764a40bfbda046f6e36bb, type: 3}
+        - {fileID: 1827226128182048838, guid: 460d159ced653f34ca1158f33b8da9b2, type: 3}
+        - {fileID: 1827226128182048838, guid: a61ea95baf76c534f81edce576390b56, type: 3}
+        - {fileID: 1827226128182048838, guid: 6dfbf20300a9d064bbe03e0ad4e9095f, type: 3}
+        - {fileID: 1827226128182048838, guid: 12a17d4545f78364992bef4e05d30768, type: 3}
+        _Speeds: []
+        _SynchronizeChildren: 
+        _Thresholds:
+        - {x: 0, y: 0}
+        - {x: 0, y: 1}
+        - {x: 0, y: -1}
+        - {x: 1, y: 0}
+        - {x: -1, y: 0}
+        - {x: -0.7, y: 0.7}
+        - {x: 0.7, y: 0.7}
+        - {x: 0.7, y: -0.7}
+        - {x: -0.7, y: -0.7}
+        _DefaultParameter: {x: 0, y: 0}
+        _Type: 1
+        _ParameterNameX: {fileID: 11400000, guid: 043185554418e6142975f88e3f9ca0ad, type: 2}
+        _ParameterNameY: {fileID: 11400000, guid: d5c96e5c456c60d4ba3f5d8a61831b75, type: 2}
