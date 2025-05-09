@@ -1,61 +1,68 @@
-# Panda Huahua
+#  Roguelike Action Survival Game Project
 
-## Introduction
-An action game developed with Unity where players control different types of panda characters, each with unique combat abilities.
+> Developed with Unity Engine, inspired by *Vampire Survivors*.  
+> Focused on lightweight gameplay design, performance optimization, and independent development practices.
 
-## Panda Types
-- **Kung Fu Panda**: Specializes in close combat using SwordSlash
-- **Magic Panda**: Uses FireBall for ranged attacks
-- **Armed Panda**: Utilizes Lightning as primary attack
+---
 
-## Game Features
-- **Diverse Enemy System**: Multiple enemy types with Boss appearing after 60 seconds
-- **Object Pool**: Optimized enemy spawning and recycling system
-- **Coin System**: Collect coins from defeated enemies with particle effects
-- **State Management**: Multiple game states including
-  - Idle
-  - Battle
-  - Shop
-  - Pause
-  - GameOver
+##  Project Overview
 
-## Technical Features
-- MessagePipe for message passing
-- NavMesh navigation system
-- Object Pool design pattern
-- State machine for game flow management
+This project is a lightweight action survival game featuring **auto-attacks, character growth, and survival challenges**.  
+The core mechanics include: automatic combat, upgrading, wave-based enemy challenges, and optimized performance for smooth gameplay.
 
-## Map System
-Game supports multiple maps:
-- frost (default map)
-- more maps planned for future
+---
 
-## Development Environment
-- Unity Engine
-- C# Programming Language
+##  Project Goals
 
-## Project Structure
-```
-Assets/
-├── Scripts/
-│   ├── Services/
-│   │   ├── BattleService.cs    - Core battle logic
-│   │   └── GameService.cs      - Game management service
-│   └── UI/
-│       └── MainMenuPanel.cs    - Main menu interface
-└── polyperfect/
-    └── Low Poly Animated Animals/ - Animal models and animations
-```
+- Implement an auto-attack and character growth loop
+- Design enemy spawning and AI behavior systems
+- Optimize performance to handle massive enemy waves
+- Build a unified UI system (HP bar, skill bar, shop interface)
+- Gain complete experience in small-scale game development
 
-## Gameplay
-1. Select panda type and map in main menu
-2. Auto-equip corresponding weapon on game start
-3. Battle continuously spawning enemies
-4. Collect coins to power up
-5. Face the Boss after 60 seconds
+---
 
-## To Do List
-- [ ] Add more weapon types
-- [ ] Implement shop system
-- [ ] Add more maps
-- [ ] Add skill upgrade system
+##  Technology Stack
+
+- **Unity 6**: A mature cross-platform game engine
+- **Object Pooling**: Efficient object reuse to minimize GC overhead
+- **Finite State Machine (FSM)**: Lightweight enemy AI system
+- **UGUI System**: Rapid UI construction with responsive design
+- **Addressables**: Dynamic resource management and memory optimization
+- **Service-Based Modular Architecture**: Low coupling, high scalability
+
+---
+
+##  Core Gameplay Loop
+
+- Auto-attack incoming enemies
+- Collect gold and experience
+- Level up and unlock new abilities
+- Survive and challenge progressively harder enemy waves
+
+---
+
+##  System Modules
+
+| Module | Description |
+| :--- | :--- |
+| Player Control | Movement, attack, and skill casting logic |
+| Enemy AI | FSM-based patrol, chase, and attack behaviors |
+| Combat System | Manage battle flow and wave spawning |
+| Skill System | Manage skill cooldowns, upgrades, and releases |
+| Resource Management | Load and cache assets dynamically using Addressables |
+| Audio System | Manage background music and combat sound effects |
+| Shop System | Handle item purchases and skill upgrades |
+| Save System | Manage player progress saving and loading |
+| UI System | Manage HP bar, skill icons, gold counter, wave info |
+
+---
+
+##  Quick Start
+
+### Requirements
+
+- Unity 6.0+
+- Windows 10+
+- CPU: Intel i5-6xxx / AMD Ryzen 1xxx or higher
+- RAM: 4GB or higher
