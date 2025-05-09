@@ -3,6 +3,10 @@
 > Developed with Unity Engine, inspired by *Vampire Survivors*.  
 > Focused on lightweight gameplay design, performance optimization, and independent development practices.
 
+## Project Resource Files
+https://drive.google.com/file/d/1rj4czjCW5vJ-jWXlMQV32biLVcaPEdPc/view?usp=sharing
+
+
 ---
 
 ##  Project Overview
